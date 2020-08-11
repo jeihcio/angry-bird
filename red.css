@@ -6,20 +6,36 @@
         width: 265px;
         border-radius: 50%;
         border: 5px solid #000;
+        display: flex;
+        align-items: center;
     }
     
     .bird-red>.body>.face {
         width: 100%;
-        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bird-red>.body>.face>.eyebrows {
+        background-color: #000;
+        width: 80%;
         display: flex;
         flex-direction: row;
-        align-items: center;
+        z-index: 2;
+    }
+    
+    .bird-red>.body>.face>.eyebrows>.eyebrow {
+        width: 50%;
+        height: 38px;
     }
     
     .bird-red>.body>.face>.eyes {
         width: 100%;
         display: flex;
         justify-content: center;
+        margin-top: -35px;
+        z-index: 1;
     }
     
     .bird-red>.body>.face>.eyes>.eye {
