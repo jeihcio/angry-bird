@@ -1,4 +1,15 @@
 body {
     margin: 0px;
     padding: 0px;
+    /* background-color: #ccc; */
+}
+
+.main {
+    position: absolute;
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

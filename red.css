@@ -1,0 +1,31 @@
+.bird-red {}
+
+.bird-red>.body {
+    background-color: #ff0a0f;
+    height: 265px;
+    width: 265px;
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+
+.bird-red>.body>.face {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bird-red>.body>.face>.eyes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bird-red>.body>.face>.eyes>.eye {
+    background-color: #fff;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
