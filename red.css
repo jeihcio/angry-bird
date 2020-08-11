@@ -1,7 +1,10 @@
 .bird-red {}
 
 .bird-red>.body {
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 50%, rgba(255, 10, 15, 1) 50%);
+    background-position: 0px 140px;
     background-color: #ff0a0f;
+    background-repeat: no-repeat;
     height: 265px;
     width: 265px;
     border-radius: 50%;
@@ -22,7 +25,7 @@
     display: flex;
     flex-direction: row;
     z-index: 2;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 50%, transparent);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 50%, transparent 50%);
 }
 
 .bird-red>.body>.face>.eyebrows>.eyebrow {
