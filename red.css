@@ -1,5 +1,3 @@
-.bird-red {}
-
 .bird-red>.body {
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 50%, rgba(255, 10, 15, 1) 50%);
     background-position: 0px 140px;
@@ -82,4 +80,27 @@
 
 .bird-red>.body>.face>.eyes>.eye:nth-of-type(2)>span {
     margin-left: 15px;
+}
+
+.bird-red>.body>.face>.mouth {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.bird-red>.body>.face>.mouth>div {
+    background-color: #f1a626;
+    border: 2px solid #000;
+}
+
+.bird-red>.body>.face>.mouth>.top {
+    width: 128px;
+    height: 70px;
+}
+
+.bird-red>.body>.face>.mouth>.down {
+    width: 128px;
+    height: 65px;
 }
